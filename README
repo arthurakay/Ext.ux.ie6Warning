@@ -1,0 +1,16 @@
+The Ext.ux.ie6Warning project utilized both Sencha ExtJS and YUI Compressor. Their license information is as follows:
+
+/*
+    Copyright(c) 2011 Sencha Inc.
+    licensing@sencha.com
+    http://www.sencha.com/license
+*/
+
+According to Sencha, ExtJS can be included in an open-source application with a license compatible with the GNU GPL license v3.
+
+YUI LICENSE
+
+  All code specific to YUI Compressor is issued under a BSD license.
+  YUI Compressor extends and implements code from Mozilla's Rhino project.
+  Rhino is issued under the Mozilla Public License (MPL), and MPL applies
+  to the Rhino source and binaries that are distributed with YUI Compressor.
