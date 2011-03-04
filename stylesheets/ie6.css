@@ -29,7 +29,13 @@
   background-position: 0 -200px !important;
 }
 
-/* line 35, ../src/ie6.scss */
+/* line 36, ../src/ie6.scss */
+.ie6AltBrowser img, .ie6Alt-Firefox img, .ie6Alt-Safari img, .ie6Alt-Chrome img, .ie6Alt-IE img, .closeIcon img,
+.closeIcon img {
+  border: 0;
+}
+
+/* line 38, ../src/ie6.scss */
 #ie6Wrapper {
   width: 99.9%;
   height: 100px;
@@ -38,7 +44,7 @@
   overflow: hidden;
 }
 
-/* line 43, ../src/ie6.scss */
+/* line 46, ../src/ie6.scss */
 #ie6Warning {
   width: 800px;
   height: 100px;
@@ -49,7 +55,7 @@
   font-weight: bold;
 }
 
-/* line 53, ../src/ie6.scss */
+/* line 56, ../src/ie6.scss */
 #ie6CloseMsg {
   position: absolute;
   right: 3px;
@@ -59,26 +65,26 @@
   overflow: hidden;
 }
 
-/* line 62, ../src/ie6.scss */
+/* line 65, ../src/ie6.scss */
 #ie6Message {
   width: 400px;
   display: inline-block;
   float: left;
 }
 
-/* line 68, ../src/ie6.scss */
+/* line 71, ../src/ie6.scss */
 #ie6Message p {
   margin: 10px;
 }
 
-/* line 70, ../src/ie6.scss */
+/* line 73, ../src/ie6.scss */
 #ie6Alternatives {
   width: 400px;
   display: inline-block;
   float: right;
 }
 
-/* line 76, ../src/ie6.scss */
+/* line 79, ../src/ie6.scss */
 .ie6AltBrowser, .ie6Alt-Firefox, .ie6Alt-Safari, .ie6Alt-Chrome, .ie6Alt-IE, .closeIcon {
   width: 100px;
   height: 100px;

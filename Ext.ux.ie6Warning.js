@@ -11,8 +11,7 @@ Ext.ux.ie6Warning = {
     wrapperId: 'ie6Wrapper',
     cookieName: 'ie6Sucks',
     
-    //repoPath: 'https://github.com/arthurakay/Ext.ux.ie6Warning/raw/master/',
-    repoPath: '',
+    repoPath: 'https:\/\/github.com/arthurakay/Ext.ux.ie6Warning/raw/master/',
 
     ie6Css: function () { return this.repoPath + 'stylesheets/ie6.css'; },
     spacerImg: function () { return this.repoPath + 'images/e.png'; },
@@ -92,8 +91,7 @@ Ext.define('Ext.ux.ie6Warning.Warn', {
     },
     
     checkDisplay: function() {
-         //if (Ext.isIE6) {
-         if (Ext.isGecko3) {
+         if (Ext.isIE6) {
              if (Ext.ux.ie6Warning.checkCookie() !== 'true') {
                  this.setCss();
                  this.render(Ext.getBody(), 0);

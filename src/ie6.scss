@@ -32,6 +32,9 @@ $icon-sprites: sprite-map("icons/*.png", $spacing: 100px);
 	background-position: sprite-position($icon-sprites, "closeWindow") !important;
 }
 
+.ie6AltBrowser img,
+.closeIcon img { border: 0; }
+
 #ie6Wrapper { 
 	width: 99.9%; 
 	height: 100px; 
