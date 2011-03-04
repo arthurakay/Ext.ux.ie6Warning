@@ -1,0 +1,87 @@
+/* line 5, ../src/ie6.scss */
+.ie6AltBrowser, .ie6Alt-Firefox, .ie6Alt-Safari, .ie6Alt-Chrome, .ie6Alt-IE, .closeIcon {
+  background-image: url('../images/icons-9f136cec44.png') !important;
+  background-repeat: no-repeat !important;
+}
+
+/* line 10, ../src/ie6.scss */
+.ie6Alt-Firefox {
+  background-position: 0 -364px !important;
+}
+
+/* line 15, ../src/ie6.scss */
+.ie6Alt-Safari {
+  background-position: 0 -764px !important;
+}
+
+/* line 20, ../src/ie6.scss */
+.ie6Alt-Chrome {
+  background-position: 0 0 !important;
+}
+
+/* line 25, ../src/ie6.scss */
+.ie6Alt-IE {
+  background-position: 0 -564px !important;
+}
+
+/* line 30, ../src/ie6.scss */
+.closeIcon {
+  background-position: 0 -200px !important;
+}
+
+/* line 35, ../src/ie6.scss */
+#ie6Wrapper {
+  width: 99.9%;
+  height: 100px;
+  border: 1px solid #F99;
+  background: #FFF;
+  overflow: hidden;
+}
+
+/* line 43, ../src/ie6.scss */
+#ie6Warning {
+  width: 800px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 53, ../src/ie6.scss */
+#ie6CloseMsg {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  height: 65px;
+  width: 65px;
+  overflow: hidden;
+}
+
+/* line 62, ../src/ie6.scss */
+#ie6Message {
+  width: 400px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 68, ../src/ie6.scss */
+#ie6Message p {
+  margin: 10px;
+}
+
+/* line 70, ../src/ie6.scss */
+#ie6Alternatives {
+  width: 400px;
+  display: inline-block;
+  float: right;
+}
+
+/* line 76, ../src/ie6.scss */
+.ie6AltBrowser, .ie6Alt-Firefox, .ie6Alt-Safari, .ie6Alt-Chrome, .ie6Alt-IE, .closeIcon {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  float: left;
+}

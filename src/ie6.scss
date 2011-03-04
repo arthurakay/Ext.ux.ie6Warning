@@ -1,0 +1,81 @@
+@import "compass/utilities/sprites/base";
+
+$icon-sprites: sprite-map("icons/*.png", $spacing: 100px);
+
+.ie6AltBrowser { 
+	background-image: sprite-url($icon-sprites) !important; 
+	background-repeat: no-repeat !important;
+}
+
+.ie6Alt-Firefox {
+    @extend .ie6AltBrowser;
+	background-position: sprite-position($icon-sprites, "firefox") !important;
+}
+
+.ie6Alt-Safari {
+    @extend .ie6AltBrowser;
+    background-position: sprite-position($icon-sprites, "safari") !important;
+}
+
+.ie6Alt-Chrome {
+    @extend .ie6AltBrowser;
+    background-position: sprite-position($icon-sprites, "chrome") !important;
+}
+
+.ie6Alt-IE {
+    @extend .ie6AltBrowser;
+    background-position: sprite-position($icon-sprites, "ie") !important;
+}
+
+.closeIcon {
+	@extend .ie6AltBrowser;
+	background-position: sprite-position($icon-sprites, "closeWindow") !important;
+}
+
+#ie6Wrapper { 
+	width: 99.9%; 
+	height: 100px; 
+	border: 1px solid #F99; 
+	background: #FFF;
+	overflow: hidden;
+}
+
+#ie6Warning { 
+	width: 800px; 
+	height: 100px; 
+	overflow: hidden; 
+	margin: 0 auto; 
+	font-family: Verdana, sans-serif; 
+	font-size: 14px; 
+	font-weight: bold; 
+}
+
+#ie6CloseMsg { 
+	position: absolute; 
+	right: 3px; 
+	top: 3px;
+	height: 65px;
+	width: 65px;
+	overflow: hidden;
+}
+
+#ie6Message { 
+	width: 400px; 
+	display: inline-block; 
+	float: left; 
+}
+
+#ie6Message p { margin: 10px; }
+
+#ie6Alternatives { 
+	width: 400px; 
+	display: inline-block; 
+	float: right; 
+}
+
+.ie6AltBrowser { 
+	width: 100px; 
+	height: 100px; 
+	display: inline-block; 
+	float: left; 
+}
