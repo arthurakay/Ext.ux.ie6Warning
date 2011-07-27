@@ -108,7 +108,7 @@ Ext.define('Ext.ux.ie6Warning.Warn', {
 
         Ext.core.DomHelper.append(
             Ext.getHead(),
-            cssTpl.apply({ src: Ext.ux.ie6Warning.ie6Css	() })
+            cssTpl.apply({ src: Ext.ux.ie6Warning.ie6Css() })
         );
     }
 });
