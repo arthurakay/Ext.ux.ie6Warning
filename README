@@ -1,16 +1,13 @@
-The Ext.ux.ie6Warning project utilized both Sencha ExtJS and YUI Compressor. Their license information is as follows:
+ = Ext.ux.ie6Warning =
 
-/*
-    Copyright(c) 2011 Sencha Inc.
-    licensing@sencha.com
-    http://www.sencha.com/license
-*/
+This UX was inspired by  www.ie6nomore.com
 
-According to Sencha, ExtJS can be included in an open-source application with a license compatible with the GNU GPL license v3.
+ExtJS 4.x supports IE6, but that doesn't mean we should encourage people to use it.
 
-YUI LICENSE
+Ext.ux.ie6Warning will display a banner for users running IE6 to upgrade their browser.
 
-  All code specific to YUI Compressor is issued under a BSD license.
-  YUI Compressor extends and implements code from Mozilla's Rhino project.
-  Rhino is issued under the Mozilla Public License (MPL), and MPL applies
-  to the Rhino source and binaries that are distributed with YUI Compressor.
+
+
+= Other Stuff =
+
+I use the Sencha SDK Tools to compress/minify the code. It must be used in conjunction with ExtJS 4.x, which is not included in this repo/download.

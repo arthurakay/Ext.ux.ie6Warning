@@ -1,0 +1,18 @@
+{
+    "projectName" : "Ext.ux.ie6Warning",
+    "licenseText" : "Copyright(c) 2012 aKa Web Design (www.akawebdesign.com)",
+    "builds"      : [
+        {
+            "name"     : "Production",
+            "target"   : "Ext.ux.ie6Warning-min.js",
+            "compress" : true,
+            "files"    : [
+                {
+                    "path" : "",
+                    "name" : "Ext.ux.ie6Warning.js"
+                }
+            ]
+        }
+    ],
+    "resources"   : []
+}

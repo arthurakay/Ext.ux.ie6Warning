@@ -1,17 +1,20 @@
-Ext.ns('Ext.ux.ie6Warning.Warn');
-
 /**
  * @class Ext.ux.ie6Warning
  *      Inspired by  www.ie6nomore.com
  *
  * @namespace Ext.ux
  * @singleton
+ * @author Arthur Kay (www.akawebdesign.com)
+ * @version 1.1
  */
-Ext.ux.ie6Warning = {
+Ext.define('Ext.ux.ie6Warning', {
+    singleton : true,
+
     wrapperId: 'ie6Wrapper',
     cookieName: 'ie6Sucks',
     
-    repoPath: 'https:\/\/github.com/arthurakay/Ext.ux.ie6Warning/raw/master/',
+    //repoPath: 'https:\/\/github.com/arthurakay/Ext.ux.ie6Warning/raw/master/',
+    repoPath : '',
 
     ie6Css: function () { return this.repoPath + 'stylesheets/ie6.css'; },
     spacerImg: function () { return this.repoPath + 'images/e.png'; },
@@ -32,7 +35,7 @@ Ext.ux.ie6Warning = {
         return false;
     }
 
-};
+});
 
 /**
  * @class Ext.ux.ie6Warning.Warn
